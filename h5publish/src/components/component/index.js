@@ -1,3 +1,5 @@
+//自动挂载当前路径下的.vue组件,在其他组件内可以直接使用不需要import 
+
 import Vue from 'vue'
 
 function changeStr(str){

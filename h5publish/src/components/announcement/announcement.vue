@@ -1,3 +1,4 @@
+<!--公告组件-->
 <template>
   <div class="wrap">
     <div id="box"> 
@@ -10,7 +11,7 @@
 <script>
 export default {
   name: 'announcement',
-  props: ['lists'], // 父组件传入数据， 数组形式 [ "连雨不知春去"，"一晴方觉夏深"]
+  props: ['lists'], // 父组件传入数据
   data () {
     return {
       text: '' // 数组文字转化后的字符串

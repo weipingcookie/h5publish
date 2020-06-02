@@ -1,3 +1,4 @@
+<!--颜色选择器组件-->
 <template>
 	<div class='wrap'>
 		<el-color-picker @change="changeTitleColor" v-model="defaltColor"></el-color-picker>

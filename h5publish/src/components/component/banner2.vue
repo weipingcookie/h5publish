@@ -1,3 +1,4 @@
+<!--轮播测试组件-->
 <template>
 	<div>
 		<div class="wrap">

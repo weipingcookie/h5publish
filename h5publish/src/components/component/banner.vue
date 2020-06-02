@@ -1,3 +1,4 @@
+<!--轮播组件-->
 <template>
 	<div>
 		<div class="wrap">
