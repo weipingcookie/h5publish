@@ -1,0 +1,120 @@
+.container {
+	width: 300px;
+	height: 600px;
+	background-color: rgba(0, 0, 0, .8);
+	margin: 50px auto;
+	border-radius: 30px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	position: relative;
+	z-index: 999;
+}
+
+.container::before {
+	content: "";
+	width: 3px;
+	height: 50px;
+	background: rgba(0, 0, 0, .5);
+	position: absolute;
+	top: 170px;
+	left: 300px;
+	border-radius: 0 4px 4px 0;
+}
+
+.container::after {
+	content: "";
+	width: 3px;
+	height: 100px;
+	background: rgba(0, 0, 0, .5);
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	border-radius: 0 4px 4px 0;
+}
+
+.container .round {
+	width: 10px;
+    height: 10px;
+    border: 3px solid #4a4a4a;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    margin-left: -4.5px;
+}
+
+.container .longround {
+	position: absolute;
+    width: 70px;
+    height: 5px;
+    border: 3px solid #4a4a4a;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: 35px;
+}
+
+.container .screen {
+	width: 280px;
+	height: 470px;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .8));
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -140px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 450px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .6) inset;
+	overflow-y: auto;
+}
+
+.container .screen::before {
+	content: "";
+	width: 50px;
+	height: 4px;
+	background: rgba(0, 0, 0, .5);
+	border-radius: 3px 3px 0 0;
+	position: absolute;
+	top: -63px;
+	left: 180px;
+}
+
+.container .screen::after {
+	content: "";
+	width: 7px;
+	height: 10px;
+	background: rgba(0, 0, 0, .5);
+	border-radius: 5px 0 0 5px;
+	position: absolute;
+	top: -10px;
+	left: -17px;
+}
+
+.container .home {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, .6);
+	border: 2px solid #4a4a4a;
+	position: absolute;
+	bottom: 14px;
+	left: 50%;
+	margin-left: -20px;
+	box-shadow: 0 0 2px black inset;
+}
+
+.container .home::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, .5);
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
